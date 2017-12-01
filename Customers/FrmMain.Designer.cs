@@ -1,0 +1,102 @@
+﻿namespace CustomerAccountsUsingRaptorDb
+{
+    partial class FrmMain
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.GvCustomerAccounts = new System.Windows.Forms.DataGridView();
+            this.CbActions = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.GvCustomerAccounts)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(273, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Create and Manage Customer Accounts";
+            // 
+            // GvCustomerAccounts
+            // 
+            this.GvCustomerAccounts.AllowUserToAddRows = false;
+            this.GvCustomerAccounts.AllowUserToDeleteRows = false;
+            this.GvCustomerAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GvCustomerAccounts.Location = new System.Drawing.Point(16, 42);
+            this.GvCustomerAccounts.Name = "GvCustomerAccounts";
+            this.GvCustomerAccounts.ReadOnly = true;
+            this.GvCustomerAccounts.Size = new System.Drawing.Size(1091, 433);
+            this.GvCustomerAccounts.TabIndex = 2;
+            this.GvCustomerAccounts.DoubleClick += new System.EventHandler(this.GvCustomerAccounts_DoubleClick);
+            // 
+            // CbActions
+            // 
+            this.CbActions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbActions.FormattingEnabled = true;
+            this.CbActions.Items.AddRange(new object[] {
+            "-- Actions --",
+            "Add a Customer Account",
+            "Exit"});
+            this.CbActions.Location = new System.Drawing.Point(873, 10);
+            this.CbActions.Name = "CbActions";
+            this.CbActions.Size = new System.Drawing.Size(234, 26);
+            this.CbActions.TabIndex = 3;
+            this.CbActions.SelectedIndexChanged += new System.EventHandler(this.CbActions_SelectedIndexChanged);
+            // 
+            // FrmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1119, 485);
+            this.Controls.Add(this.CbActions);
+            this.Controls.Add(this.GvCustomerAccounts);
+            this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.Name = "FrmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Customer Accounts Demo Project - Using RaptorDB";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.GvCustomerAccounts)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView GvCustomerAccounts;
+        private System.Windows.Forms.ComboBox CbActions;
+    }
+}
+

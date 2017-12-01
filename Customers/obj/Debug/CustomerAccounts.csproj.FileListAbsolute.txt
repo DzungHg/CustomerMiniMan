@@ -1,0 +1,9 @@
+D:\C_Sharp Projects\CustomerAccountsUsingRaptorDb\CustomerAccounts\bin\Debug\CustomerAccountsUsingRaptorDb.exe.config
+D:\C_Sharp Projects\CustomerAccountsUsingRaptorDb\CustomerAccounts\obj\Debug\CustomerAccountsUsingRaptorDb.exe
+D:\C_Sharp Projects\CustomerAccountsUsingRaptorDb\CustomerAccounts\obj\Debug\CustomerAccountsUsingRaptorDb.pdb
+D:\C_Sharp Projects\CustomerMiniMan\CustomerAccounts\bin\Debug\CustomerAccountsUsingRaptorDb.exe.config
+D:\C_Sharp Projects\CustomerMiniMan\CustomerAccounts\obj\Debug\CustomerAccountsUsingRaptorDb.exe
+D:\C_Sharp Projects\CustomerMiniMan\CustomerAccounts\obj\Debug\CustomerAccountsUsingRaptorDb.pdb
+D:\C_Sharp Projects\CustomerMiniMan\Customers\bin\Debug\CustomerAccountsUsingRaptorDb.exe.config
+D:\C_Sharp Projects\CustomerMiniMan\Customers\obj\Debug\CustomerAccountsUsingRaptorDb.exe
+D:\C_Sharp Projects\CustomerMiniMan\Customers\obj\Debug\CustomerAccountsUsingRaptorDb.pdb

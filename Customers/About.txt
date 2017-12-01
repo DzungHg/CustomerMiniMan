@@ -1,0 +1,11 @@
+﻿About:
+
+This sample project utilizes RaptopDb to demonstrate create, read, and update operations against an embedded document store.
+
+Visit https://raptordb.codeplex.com for more information.
+Visit http://www.codeproject.com/Articles/375413/RaptorDB-the-Document-Store for more information.
+
+The project:
+
+The project was built as a Windows Forms application in Visual Studio Professional 2013.
+
