@@ -1,6 +1,6 @@
 ﻿namespace CustomerAccountsUsingRaptorDb.Common.Enum
 {
-    public enum HuangKhachHang
+    public enum HangKhachHang
     {
         CoBan = 0,
         Bac = 1,

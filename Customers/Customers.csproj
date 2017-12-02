@@ -52,9 +52,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\Enum\HuangKhachHang.cs" />
+    <Compile Include="Common\Enum\LoaiCongTy.cs" />
+    <Compile Include="Common\Enum\LoaiHoatDong.cs" />
+    <Compile Include="Common\Enum\PipeLineChinhPhuc.cs" />
+    <Compile Include="Common\Enum\HangKhachHang.cs" />
     <Compile Include="Common\Enum\ManageAction.cs" />
     <Compile Include="Common\Globals.cs" />
+    <Compile Include="Entities\HoatDong.cs" />
     <Compile Include="Entities\ChinhPhuc.cs" />
     <Compile Include="Entities\CongTy.cs" />
     <Compile Include="FrmMain.cs">

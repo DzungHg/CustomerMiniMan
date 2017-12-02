@@ -119,7 +119,7 @@ namespace CustomerAccountsUsingRaptorDb
         private void InitializeFormData()
         {
             //Bind the account level settings
-            foreach (HuangKhachHang accountLevel in Enum.GetValues(typeof(HuangKhachHang)))
+            foreach (HangKhachHang accountLevel in Enum.GetValues(typeof(HangKhachHang)))
             {
                 CbAccountLevel.Items.Add(accountLevel.ToString());
             }
